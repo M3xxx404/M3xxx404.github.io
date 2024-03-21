@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1, h2, h3 {
+    font-family: 'Roboto';
+    text-align: right;
+    color: rgb(223, 20, 20);
+}
+strong {
+    font-family: 'Caveat';
+}
+em {
+    color: rgb(143, 214, 36);
+    font-style: italic;
+}
+.wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
