@@ -1,0 +1,24 @@
+body {
+    background: url("/Lab3/mountains-foggy-realistic-1.jpg") repeat;
+    color: rgb(255, 251, 1);
+}
+
+h1,h2,h3 {
+    font-family: 'Roboto';
+    text-align: right;
+    color: rgb(223, 20, 20);
+    margin: 15%
+}
+
+strong {
+    font-family: 'Caveat';
+}
+
+em {
+    color: rgb(236, 54, 197);
+    font-style: italic;
+    background:rgb(20, 20, 14);
+    border:2px solid silver;
+    border-radius: 5px;
+    padding: 1em
+}
