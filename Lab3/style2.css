@@ -1,6 +1,6 @@
 body {
     background: url("/Lab3/mountains-foggy-realistic-1.jpg") repeat;
-    color: rgb(255, 251, 1);
+    color: rgb(0, 0, 0);
 }
 
 h1,h2,h3 {
@@ -23,6 +23,7 @@ em {
     padding: 0
 }
 .wrapper {
+    background: rgba(245, 245, 245, 0.514);
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
