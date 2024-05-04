@@ -9,14 +9,15 @@
             box-sizing: border-box;
             background: #ccf;
             width: 200px;
-            float: left;
+            display: flex;
         }
 
         #right {
             box-sizing: border-box;
-            float: right;
             width: 200px;
             background: #fcc;
+            display: flex;
+            
             
         }
 
@@ -24,12 +25,13 @@
             box-sizing: border-box;
             width: 600px;
             background: #cfc;
-            
+            display: flex;
         }
         .container {
-            display: flex;
-            justify-content: center;
-            align-items: center
+            display: inline-flex;
+            align-items: center;
+            flex-direction: column;
+            
         }
     </style>
 </head>
@@ -37,7 +39,6 @@
 <body>
     <div class="container">
     <div id="left">left<br>left<br>left<br>left<br>left</div>
-    <div id="right">right<br>right<br>right<br>right</div>
     <div id="center">center text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
@@ -52,7 +53,10 @@
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text</div>
+    <div id="right">right<br>right<br>right<br>right</div>
     </div>
+    
+    
 
     </body>
 

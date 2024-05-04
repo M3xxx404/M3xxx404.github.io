@@ -4,12 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title>Использование float при построении колонок</title>
-    <style type="text/css">
+    <style>
         #left {
             box-sizing: border-box;
             display: inline-block;
             background: #ccf;
             width: 200px;
+            
+        }
+        #center {
+            box-sizing: border-box;
+            width: 600px;
+            display: inline-block;
+            background: #cfc;
             
         }
 
@@ -19,20 +26,14 @@
             width: 200px;
             background: #fcc;
         }
+        
 
-        #center {
-            box-sizing: border-box;
-            width: 600px;
-            display: inline-block;
-            background: #cfc;
-            
-        }
+        
     </style>
 </head>
 
 <body>
     <div id="left">left<br>left<br>left<br>left<br>left</div>
-    <div id="right">right<br>right<br>right<br>right</div>
     <div id="center">center text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
@@ -47,6 +48,8 @@
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text</div>
+    <div id="right">right<br>right<br>right<br>right</div>
+    
 </body>
 
 </html>
