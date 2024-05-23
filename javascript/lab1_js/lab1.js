@@ -4,13 +4,13 @@ function ex1() {
     let age = Number(prompt('Введите возраст'));
     let gender = prompt('Введите пол (Мужской/Женский)');
 
-    if (age <= 17) {
+    if (age >= 0 && age <= 17) {
         alert('Вам работать ещё рано - учитесь');
-    } else if (((18 <= age <= 59) && gender == 'Мужской') || ((18 <= age <= 54) && gender == 'Женский')) {
+    } else if (((18 <= age && age <= 59) && gender == 'Мужской') || ((18 <= age && age <= 54) && gender == 'Женский')) {
         alert('Вам еще работать и работать');
-    } else if (((60 <= age <= 64) && gender == 'Мужской') || ((55 <= age <= 59) && gender == 'Женский')) {
+    } else if (((60 <= age && age <= 64) && gender == 'Мужской') || ((55 <= age && age <= 59) && gender == 'Женский')) {
         alert('Скоро пенсия!');
-    } else if (((age > 65) && gender == 'Мужской') || ((age > 60) && gender == 'Женский')) {
+    } else if (((age > 65 && age < 150) && gender == 'Мужской') || ((age > 60 && age < 150) && gender == 'Женский')) {
         alert('Вам пора на пенсию');
     } else {
         alert('Да кто ты такой?');
@@ -18,25 +18,35 @@ function ex1() {
 }
 
 function ex2() {
-    let num = Number(prompt('Введите кол-во ворон'));
-    let endStr = '';
-
-    switch (num) {
-        case 1:
-            endStr = 'a';
-            break;
-        case 2:
-        case 3:
-        case 4:
-            endStr = 'ы';
-            break;
-        default:
-            endStr = '';
-    }
-    if (num % 100 >= 11 && num % 100 <= 14) {
-        endStr = '';
-    }
-    alert(`На ветке сидит ${num} ворон${endStr}`);
+    let num = prompt("Введите целое число:"); 
+    num = parseInt(num); 
+       
+    let endStr = ""; 
+       
+    if (isNaN(num) || num < 1) { 
+        alert("Некорректное значение"); 
+    } 
+          
+    else { 
+       
+        switch (num % 10) { 
+        case 1: 
+            endStr = 'a'; 
+            break; 
+        case 2: 
+        case 3: 
+        case 4: 
+            endStr = 'ы'; 
+            break; 
+        default: 
+            endStr = ''; 
+        } 
+    } 
+       
+    if (num % 100 >= 11 && num % 100 <= 14) { 
+        endStr = ''; 
+    } 
+    alert(`На ветке сидит ${num} ворон${endStr}`) 
 }
 
 function ex3() {
