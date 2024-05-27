@@ -1,4 +1,4 @@
-import { fib } from "../lab3/lab3_1.js";
+import { fib } from "./lab3_1.js";
 
 /**
  * Считаем десятичную часть числа 
