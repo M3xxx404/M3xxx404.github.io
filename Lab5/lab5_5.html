@@ -1,37 +1,36 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Использование grid при построении колонок</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style type="text/css">
-       body {
-            display: grid;
-            grid-template-columns: 200px 1fr 200px;
-            gap: 10px;
-        }
-
-        #left,
-        #right,
-        #center {
-            box-sizing: border-box;
-            padding: 10px;
-        }
-
-        #left {
-            background: #ccf;
-        }
-
-        #right {
-            background: #fcc;
-        }
-
-        #center {
-            background: #cfc;
-        }
-    </style>
+        body {
+             display: grid;
+             grid-template-columns: 200px 1fr 200px;
+             gap: 10px;
+         }
+ 
+         #left,
+         #right,
+         #center {
+             box-sizing: border-box;
+             padding: 10px;
+         }
+ 
+         #left {
+             background: #ccf;
+         }
+ 
+         #right {
+             background: #fcc;
+         }
+ 
+         #center {
+             background: #cfc;
+         }
+     </style>
 </head>
-
 <body>
     <div id="left">left<br>left<br>left<br>left<br>left</div>
     <div id="center">center text text text text text text text text text text text text text text text text text text
@@ -50,5 +49,4 @@
         text text text text text text text text text text text text text text text</div>
     <div id="right">right<br>right<br>right<br>right</div>
 </body>
-
 </html>
