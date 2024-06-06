@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #ffffff;
     margin: 0;
     padding: 20px;
 }
@@ -36,7 +36,7 @@ input[type="radio"]+label {
     width: 100%;
     padding: 8px;
     margin: 5px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #d6d3d3;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -55,14 +55,14 @@ input[type="radio"]+label {
     text-align: center;
     padding: 10px;
     margin: 0 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #dbd6d6;
     border-radius: 4px;
-    background-color: #f9f9f9;
+    background-color: #ece9e9;
     cursor: pointer;
 }
 
 input[type="radio"]:checked+label {
-    background-color: #e0e0e0;
+    background-color: #c9c6c6;
     border-color: #999;
 }
 
@@ -77,7 +77,7 @@ button {
     margin: 5px;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
+    background-color: #0474ec;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -85,11 +85,11 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #013974;
 }
 
 button:last-child {
-    background-color: #6c757d;
+    background-color: #8f9ba7;
 }
 
 button:last-child:hover {
