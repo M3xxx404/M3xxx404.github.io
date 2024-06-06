@@ -75,7 +75,9 @@ export function fibs(n){
  */
 export function arrReverseSorted(arr){
     let l = arr.toSorted((a, b) => b-a)
-    return l
+    const arrForCopy = arr.slice();
+    arrForCopy.sort((a, b) => b-a);
+    return arrForCopy;
 }
 
 
